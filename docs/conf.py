@@ -12,12 +12,20 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'sphinx_multiversion',
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+  "sphinx.ext.viewcode",
+  "sphinx.ext.autodoc",
+  "sphinx.ext.napoleon",
+  "sphinx_autodoc_typehints",
+  "sphinx.ext.todo",
+  "sphinx_fontawesome",
+  "sphinx_click.ext",
+  # 'sphinx.ext.coverage',
+  "sphinx.ext.mathjax",
+  "sphinx_multiversion",
+  "sphinx_tabs.tabs",
+  "sphinx-prompt",
+  "sphinx_substitution_extensions",
+  "sphinx_togglebutton",
 ]
 
 intersphinx_mapping = {
@@ -31,14 +39,18 @@ templates_path = [
 ]
 
 html_sidebars = {
-    '**': [
-        'versions.html',
-    ],
+  "**": [
+    "about.html",
+    "navigation.html",
+    "relations.html",  # needs 'show_related': True theme option to display
+    "searchbox.html",
+    "donate.html",
+  ]
 }
 
 # -- Options for HTML output
 
-# html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
 
 # html_theme_options = {
 #   "display_version": False,
