@@ -30,11 +30,11 @@ templates_path = [
     "_templates",
 ]
 
-html_sidebars = {
-    '**': [
-        'versioning.html',
-    ],
-}
+# html_sidebars = {
+#     '**': [
+#         'versioning.html',
+#     ],
+# }
 
 # -- Options for HTML output
 
