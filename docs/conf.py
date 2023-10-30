@@ -30,21 +30,21 @@ templates_path = [
     "_templates",
 ]
 
-# html_sidebars = {
-#     '**': [
-#         'versioning.html',
-#     ],
-# }
+html_sidebars = {
+    '**': [
+        'versioning.html',
+    ],
+}
 
 # -- Options for HTML output
 
 # html_theme = 'sphinx_rtd_theme'
 
-html_theme_options = {
-  "display_version": False,
-  "logo_only": True,
-  "style_nav_header_background": "#151033",
-}
+# html_theme_options = {
+#   "display_version": False,
+#   "logo_only": True,
+#   "style_nav_header_background": "#151033",
+# }
 
 html_context = {
     'Tags':'Tags'
