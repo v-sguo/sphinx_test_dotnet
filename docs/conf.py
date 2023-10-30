@@ -32,7 +32,7 @@ templates_path = [
 
 html_sidebars = {
     '**': [
-        'versioning.html',
+        'versions.html',
     ],
 }
 
