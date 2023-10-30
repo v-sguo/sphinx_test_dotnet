@@ -46,8 +46,6 @@ html_theme_options = {
   "style_nav_header_background": "#151033",
 }
 
-html_static_path = ["_static"]
-
 html_context = {
     'Tags':'Tags'
 }
