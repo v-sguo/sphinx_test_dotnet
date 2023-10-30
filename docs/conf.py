@@ -38,7 +38,7 @@ html_sidebars = {
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
 
 # html_theme_options = {
 #   "display_version": False,
