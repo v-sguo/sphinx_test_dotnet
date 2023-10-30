@@ -1,3 +1,42 @@
+<style>
+    .rst-other-versions2 {
+        display: block
+    }
+   
+    .rst-versions.shift-up .rst-other-versions2 {
+       display: block
+    }
+   
+    .rst-versions .rst-other-versions2 {
+        font-size: 90%;
+        padding: 12px;
+        color: grey;
+        display: none
+    }
+   
+    .rst-versions .rst-other-versions2 hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        margin: 20px 0;
+        padding: 0;
+        border-top: 1px solid #413d3d
+    }
+   
+    .rst-versions .rst-other-versions2 dd {
+        display: inline-block;
+        margin: 0
+    }
+   
+    .rst-versions .rst-other-versions2 dd a {
+        display: inline-block;
+        padding: 6px;
+        color: #fcfcfc
+    }
+   
+   </style>
+
+
 {%- if current_version %}
 <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
@@ -5,7 +44,7 @@
     v: {{ current_version.name }}
     <span class="fa fa-caret-down"></span>
   </span>
-  <div class="rst-other-versions">
+  <div class="rst-other-versions2">
     {%- if versions.tags %}
     <dl>
       <dt>Tags</dt>
